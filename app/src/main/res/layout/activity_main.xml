@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/Laps"
+        android:layout_width="316dp"
+        android:layout_height="129dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:text="@string/Laps"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/Go"
+        android:layout_width="114dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:baselineAligned="false"
+        android:onClick="avanzar"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:text="@string/Go"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="246dp" />
+
+    <Button
+        android:id="@+id/Over"
+        android:layout_width="114dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:baselineAligned="false"
+        android:onClick="reinicio"
+        android:text="@string/Over"
+        tools:layout_editor_absoluteX="139dp"
+        tools:layout_editor_absoluteY="341dp" />
+
+    <ImageView
+        android:id="@+id/trofeo"
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:contentDescription="@string/trofeo"
+        android:visibility="invisible"
+        app:srcCompat="@drawable/trofeo" />
+
+</LinearLayout>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FitApp</string>
+    <string name="Go">Vuelta</string>
+    <string name="Over">Reiniciar</string>
+    <string name="Laps">0</string>
+    <string name="trofeo">trofeo</string>
+</resources>
